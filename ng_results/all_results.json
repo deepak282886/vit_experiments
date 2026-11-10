@@ -1,0 +1,187 @@
+{
+  "morph_network": {
+    "r_freq_arity": NaN,
+    "p_freq_arity": NaN,
+    "pct_supp_term": 98.66666666666667,
+    "pct_reg_term": 100.0,
+    "trif_rates": {
+      "high": 100.0
+    },
+    "f_anova": NaN,
+    "p_anova": NaN,
+    "hf_sprout_dens": 0.18018119197364474,
+    "lf_sprout_dens": 0.0,
+    "mean_high_arity": 7.584905660377358,
+    "mean_med_arity": 0.0,
+    "mean_low_arity": 0.0,
+    "n_families": 53
+  },
+  "cross_language": {
+    "English(UM)": {
+      "r_freq_arity": 0.2221814543314896,
+      "p_freq_arity": 5.768988265012739e-57,
+      "pct_supp_term": 100.0,
+      "pct_reg_term": 55.89403973509934,
+      "trif_rates": {
+        "low": 23.206412825651302,
+        "medium": 100.0
+      },
+      "f_anova": 259.53616254591867,
+      "p_anova": 5.768988265028133e-57,
+      "hf_sprout_dens": 0.0,
+      "lf_sprout_dens": 0.21595622119815663,
+      "mean_high_arity": 0.0,
+      "mean_med_arity": 10.4,
+      "mean_low_arity": 2.716633266533066,
+      "n_families": 5000,
+      "language": "English(UM)"
+    },
+    "Turkish": {
+      "r_freq_arity": 0.9934383172681267,
+      "p_freq_arity": 0.0,
+      "pct_supp_term": 99.99874765184721,
+      "pct_reg_term": 98.93869302687962,
+      "trif_rates": {
+        "high": 100.0,
+        "medium": 100.0
+      },
+      "f_anova": NaN,
+      "p_anova": NaN,
+      "hf_sprout_dens": 0.39992207765040577,
+      "lf_sprout_dens": 0.0,
+      "mean_high_arity": 703.0,
+      "mean_med_arity": 52.50952858575727,
+      "mean_low_arity": 0.0,
+      "n_families": 3579,
+      "language": "Turkish"
+    },
+    "Arabic": {
+      "r_freq_arity": 0.8229011729301867,
+      "p_freq_arity": 0.0,
+      "pct_supp_term": 100.0,
+      "pct_reg_term": 99.99570953555722,
+      "trif_rates": {
+        "medium": 100.0,
+        "high": 100.0,
+        "low": 100.0
+      },
+      "f_anova": 107.28369382651246,
+      "p_anova": 8.331066903560568e-25,
+      "hf_sprout_dens": 0.44505321067821074,
+      "lf_sprout_dens": 0.0,
+      "mean_high_arity": 112.0,
+      "mean_med_arity": 25.942616263258092,
+      "mean_low_arity": 4.262295081967213,
+      "n_families": 4134,
+      "language": "Arabic"
+    }
+  },
+  "blind_test": {
+    "mean_reg": 18.7813663482666,
+    "mean_supp": 16.15630340576172,
+    "mean_rand": 28.930030822753906,
+    "t_supp_reg": -2.0332508087158203,
+    "p_supp_reg": 0.0446244515478611,
+    "t_supp_rand": -13.733488082885742,
+    "p_supp_rand": 3.8035724476861375e-40,
+    "t_reg_rand": -10.280658721923828,
+    "p_reg_rand": 7.125057171411312e-24,
+    "ng_correct": 12,
+    "ng_total": 41,
+    "pred_acc": 95.65217391304348,
+    "n_train": 51,
+    "n_test": 23,
+    "intra_mean": 20.575435638427734,
+    "inter_mean": 26.956449508666992,
+    "t_clust": -10.712593078613281,
+    "p_clust": 1.1058138154335436e-26
+  },
+  "phase_transition": {
+    "phase_transition_detected": false,
+    "r2_sigmoid": NaN,
+    "r2_linear": NaN,
+    "critical_freq": 0.06895360231737348,
+    "critical_freq_raw": 0.07138649814440617,
+    "bin_freq": [
+      7.100305144044854,
+      7.955123832442859,
+      8.471731072707525,
+      8.849547326964364,
+      8.927023275965954,
+      9.081718152319686,
+      9.332856315393423,
+      9.72813296925609,
+      10.118516913417386,
+      11.241916390030465
+    ],
+    "bin_irr": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "sigmoid_params": [
+      0.06895360231737348,
+      -3.940860574322772e-09,
+      2.0000000353953213
+    ]
+  },
+  "stationary_test": {
+    "mean_deviation_from_stationary": 0.20711158444897865,
+    "baseline_expected": 0.5093922433133098,
+    "t_vs_baseline": -1.659066542708073,
+    "p_vs_baseline": 0.10139310546408682,
+    "n_suppletives_tested": 74,
+    "stationary_test": "not significant"
+  },
+  "letter_level": {
+    "pct_silent_terminal": 100.0,
+    "pct_active_terminal": 0.0,
+    "pct_silent_boundary": 51.851851851851855,
+    "pct_active_boundary": 41.23711340206186,
+    "boundary_ratio": 1.2574074074074073,
+    "t_arity": 9.621968377128825,
+    "p_arity": 1.1929647362967394e-16,
+    "n_silent": 27,
+    "n_active": 97
+  },
+  "sentence_level": {
+    "pct_sprout_terminal": 4.391402350668169,
+    "pct_main_terminal": 2.805192833282721,
+    "mean_sprout_arity": 3.0823136370954756,
+    "mean_main_arity": 4.235651381718798,
+    "t_arity": 69.15615603921403,
+    "p_arity": 0.0,
+    "n_sentences": 26344,
+    "source": "UD treebank"
+  },
+  "dim_lifting": {
+    "dims": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32,
+      64
+    ],
+    "scores": [
+      0.0,
+      0.0,
+      0.0,
+      0.01282051282051282,
+      0.01282051282051282,
+      0.01282051282051282,
+      0.01282051282051282
+    ],
+    "saturation_k": 8,
+    "max_score": 0.01282051282051282,
+    "score_at_4d": 0.0
+  }
+}

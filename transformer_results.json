@@ -1,0 +1,225 @@
+{
+  "model": "transformer",
+  "parameters": 412800,
+  "ctx_len": 64,
+  "vocab_size": 65,
+  "epochs": 30,
+  "total_time_s": 2173.63,
+  "best_val_loss": 1.534616,
+  "final_val_loss": 1.534836,
+  "final_val_acc": 0.542951,
+  "final_perplexity": 4.6406,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.238522,
+      "val_loss": 1.974255,
+      "perplexity": 7.2013,
+      "val_acc": 0.411838
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.884093,
+      "val_loss": 1.866468,
+      "perplexity": 6.4654,
+      "val_acc": 0.442526
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.765586,
+      "val_loss": 1.804183,
+      "perplexity": 6.075,
+      "val_acc": 0.466127
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.700128,
+      "val_loss": 1.743116,
+      "perplexity": 5.7151,
+      "val_acc": 0.478462
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.655177,
+      "val_loss": 1.731018,
+      "perplexity": 5.6464,
+      "val_acc": 0.488661
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.623039,
+      "val_loss": 1.700707,
+      "perplexity": 5.4778,
+      "val_acc": 0.496457
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.596092,
+      "val_loss": 1.675158,
+      "perplexity": 5.3396,
+      "val_acc": 0.499022
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.574448,
+      "val_loss": 1.664558,
+      "perplexity": 5.2833,
+      "val_acc": 0.504674
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.557154,
+      "val_loss": 1.641035,
+      "perplexity": 5.1605,
+      "val_acc": 0.510684
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.541335,
+      "val_loss": 1.624192,
+      "perplexity": 5.0743,
+      "val_acc": 0.512379
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.527777,
+      "val_loss": 1.612288,
+      "perplexity": 5.0143,
+      "val_acc": 0.515151
+    },
+    {
+      "epoch": 12,
+      "train_loss": 1.514575,
+      "val_loss": 1.606333,
+      "perplexity": 4.9845,
+      "val_acc": 0.517932
+    },
+    {
+      "epoch": 13,
+      "train_loss": 1.503198,
+      "val_loss": 1.600488,
+      "perplexity": 4.9554,
+      "val_acc": 0.521126
+    },
+    {
+      "epoch": 14,
+      "train_loss": 1.493576,
+      "val_loss": 1.587322,
+      "perplexity": 4.8906,
+      "val_acc": 0.524373
+    },
+    {
+      "epoch": 15,
+      "train_loss": 1.484683,
+      "val_loss": 1.579561,
+      "perplexity": 4.8528,
+      "val_acc": 0.528777
+    },
+    {
+      "epoch": 16,
+      "train_loss": 1.475325,
+      "val_loss": 1.571986,
+      "perplexity": 4.8162,
+      "val_acc": 0.527423
+    },
+    {
+      "epoch": 17,
+      "train_loss": 1.467978,
+      "val_loss": 1.572685,
+      "perplexity": 4.8196,
+      "val_acc": 0.530545
+    },
+    {
+      "epoch": 18,
+      "train_loss": 1.46037,
+      "val_loss": 1.565743,
+      "perplexity": 4.7862,
+      "val_acc": 0.532617
+    },
+    {
+      "epoch": 19,
+      "train_loss": 1.453025,
+      "val_loss": 1.561883,
+      "perplexity": 4.7678,
+      "val_acc": 0.534716
+    },
+    {
+      "epoch": 20,
+      "train_loss": 1.447228,
+      "val_loss": 1.557031,
+      "perplexity": 4.7447,
+      "val_acc": 0.534438
+    },
+    {
+      "epoch": 21,
+      "train_loss": 1.441586,
+      "val_loss": 1.554792,
+      "perplexity": 4.7341,
+      "val_acc": 0.536896
+    },
+    {
+      "epoch": 22,
+      "train_loss": 1.43605,
+      "val_loss": 1.547393,
+      "perplexity": 4.6992,
+      "val_acc": 0.536465
+    },
+    {
+      "epoch": 23,
+      "train_loss": 1.431331,
+      "val_loss": 1.546677,
+      "perplexity": 4.6958,
+      "val_acc": 0.536707
+    },
+    {
+      "epoch": 24,
+      "train_loss": 1.427078,
+      "val_loss": 1.542785,
+      "perplexity": 4.6776,
+      "val_acc": 0.539408
+    },
+    {
+      "epoch": 25,
+      "train_loss": 1.423942,
+      "val_loss": 1.538207,
+      "perplexity": 4.6562,
+      "val_acc": 0.540699
+    },
+    {
+      "epoch": 26,
+      "train_loss": 1.420017,
+      "val_loss": 1.535977,
+      "perplexity": 4.6459,
+      "val_acc": 0.541408
+    },
+    {
+      "epoch": 27,
+      "train_loss": 1.417506,
+      "val_loss": 1.536891,
+      "perplexity": 4.6501,
+      "val_acc": 0.542063
+    },
+    {
+      "epoch": 28,
+      "train_loss": 1.414995,
+      "val_loss": 1.535877,
+      "perplexity": 4.6454,
+      "val_acc": 0.541049
+    },
+    {
+      "epoch": 29,
+      "train_loss": 1.413064,
+      "val_loss": 1.534616,
+      "perplexity": 4.6395,
+      "val_acc": 0.542233
+    },
+    {
+      "epoch": 30,
+      "train_loss": 1.411931,
+      "val_loss": 1.534836,
+      "perplexity": 4.6406,
+      "val_acc": 0.542951
+    }
+  ],
+  "sample": "HAMLET:\nThat,\nShepherd:\nAy, thou art but complaint his crown his husband\nreport her guilt of sword I have never he\nThat differ'd these the lady do my quit,\nTo bear him the virtues.\n\nVOLUMNIA:\nIf I am alone,\nIf I come an equal end makes your life;\nAnd much and by their blood it your sent and\nAnd a man to req"
+}

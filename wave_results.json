@@ -1,0 +1,225 @@
+{
+  "model": "wave",
+  "parameters": 278835,
+  "ctx_len": 64,
+  "vocab_size": 65,
+  "epochs": 30,
+  "total_time_s": 2304.45,
+  "best_val_loss": 1.648902,
+  "final_val_loss": 1.648902,
+  "final_val_acc": 0.511572,
+  "final_perplexity": 5.2013,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 2.291718,
+      "val_loss": 2.082662,
+      "perplexity": 8.0258,
+      "val_acc": 0.381571
+    },
+    {
+      "epoch": 2,
+      "train_loss": 1.990617,
+      "val_loss": 1.96632,
+      "perplexity": 7.1443,
+      "val_acc": 0.417668
+    },
+    {
+      "epoch": 3,
+      "train_loss": 1.877721,
+      "val_loss": 1.909655,
+      "perplexity": 6.7508,
+      "val_acc": 0.435627
+    },
+    {
+      "epoch": 4,
+      "train_loss": 1.817489,
+      "val_loss": 1.860466,
+      "perplexity": 6.4267,
+      "val_acc": 0.446571
+    },
+    {
+      "epoch": 5,
+      "train_loss": 1.777909,
+      "val_loss": 1.848114,
+      "perplexity": 6.3478,
+      "val_acc": 0.453676
+    },
+    {
+      "epoch": 6,
+      "train_loss": 1.748026,
+      "val_loss": 1.819131,
+      "perplexity": 6.1665,
+      "val_acc": 0.46253
+    },
+    {
+      "epoch": 7,
+      "train_loss": 1.72521,
+      "val_loss": 1.792963,
+      "perplexity": 6.0072,
+      "val_acc": 0.470846
+    },
+    {
+      "epoch": 8,
+      "train_loss": 1.706163,
+      "val_loss": 1.777474,
+      "perplexity": 5.9149,
+      "val_acc": 0.473106
+    },
+    {
+      "epoch": 9,
+      "train_loss": 1.690179,
+      "val_loss": 1.766813,
+      "perplexity": 5.8522,
+      "val_acc": 0.474784
+    },
+    {
+      "epoch": 10,
+      "train_loss": 1.676079,
+      "val_loss": 1.752693,
+      "perplexity": 5.7701,
+      "val_acc": 0.479736
+    },
+    {
+      "epoch": 11,
+      "train_loss": 1.663505,
+      "val_loss": 1.741661,
+      "perplexity": 5.7068,
+      "val_acc": 0.483898
+    },
+    {
+      "epoch": 12,
+      "train_loss": 1.652268,
+      "val_loss": 1.734104,
+      "perplexity": 5.6639,
+      "val_acc": 0.488338
+    },
+    {
+      "epoch": 13,
+      "train_loss": 1.642553,
+      "val_loss": 1.726389,
+      "perplexity": 5.6203,
+      "val_acc": 0.489827
+    },
+    {
+      "epoch": 14,
+      "train_loss": 1.633192,
+      "val_loss": 1.717719,
+      "perplexity": 5.5718,
+      "val_acc": 0.493021
+    },
+    {
+      "epoch": 15,
+      "train_loss": 1.625943,
+      "val_loss": 1.718375,
+      "perplexity": 5.5755,
+      "val_acc": 0.494097
+    },
+    {
+      "epoch": 16,
+      "train_loss": 1.618042,
+      "val_loss": 1.70577,
+      "perplexity": 5.5056,
+      "val_acc": 0.49704
+    },
+    {
+      "epoch": 17,
+      "train_loss": 1.609521,
+      "val_loss": 1.702993,
+      "perplexity": 5.4904,
+      "val_acc": 0.499435
+    },
+    {
+      "epoch": 18,
+      "train_loss": 1.602537,
+      "val_loss": 1.692876,
+      "perplexity": 5.4351,
+      "val_acc": 0.499937
+    },
+    {
+      "epoch": 19,
+      "train_loss": 1.596118,
+      "val_loss": 1.688354,
+      "perplexity": 5.4106,
+      "val_acc": 0.501292
+    },
+    {
+      "epoch": 20,
+      "train_loss": 1.59,
+      "val_loss": 1.683993,
+      "perplexity": 5.387,
+      "val_acc": 0.501426
+    },
+    {
+      "epoch": 21,
+      "train_loss": 1.584522,
+      "val_loss": 1.674954,
+      "perplexity": 5.3385,
+      "val_acc": 0.50497
+    },
+    {
+      "epoch": 22,
+      "train_loss": 1.579819,
+      "val_loss": 1.674154,
+      "perplexity": 5.3343,
+      "val_acc": 0.505077
+    },
+    {
+      "epoch": 23,
+      "train_loss": 1.574659,
+      "val_loss": 1.671799,
+      "perplexity": 5.3217,
+      "val_acc": 0.506235
+    },
+    {
+      "epoch": 24,
+      "train_loss": 1.569279,
+      "val_loss": 1.663695,
+      "perplexity": 5.2788,
+      "val_acc": 0.50802
+    },
+    {
+      "epoch": 25,
+      "train_loss": 1.56611,
+      "val_loss": 1.658825,
+      "perplexity": 5.2531,
+      "val_acc": 0.509886
+    },
+    {
+      "epoch": 26,
+      "train_loss": 1.562184,
+      "val_loss": 1.658698,
+      "perplexity": 5.2525,
+      "val_acc": 0.509311
+    },
+    {
+      "epoch": 27,
+      "train_loss": 1.559053,
+      "val_loss": 1.654144,
+      "perplexity": 5.2286,
+      "val_acc": 0.510128
+    },
+    {
+      "epoch": 28,
+      "train_loss": 1.556958,
+      "val_loss": 1.654829,
+      "perplexity": 5.2322,
+      "val_acc": 0.51133
+    },
+    {
+      "epoch": 29,
+      "train_loss": 1.554457,
+      "val_loss": 1.650333,
+      "perplexity": 5.2087,
+      "val_acc": 0.511536
+    },
+    {
+      "epoch": 30,
+      "train_loss": 1.552797,
+      "val_loss": 1.648902,
+      "perplexity": 5.2013,
+      "val_acc": 0.511572
+    }
+  ],
+  "sample": "HAMLET:\nTen, I will them do me, with he severeound?\n\nCLARENCE:\nAnd should goodners shall beroly him,\nWhich heads upon him eyes bend to the boarns;\nThink hast not of this the wantage love and him.\n\nDUCBHES OF YORK:\nWhat, he sir, with help and thee punerily?\n\nLEONTES:\nIs you king fleds, the field not her fath"
+}
